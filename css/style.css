@@ -125,6 +125,17 @@ a, a:hover
   z-index: -1;
 }
 
+.fondsearchproduit
+{
+  background: url(../assets/images/search_background.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  position: fixed; 
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 .search_section
 {
 	padding-left: 100px;

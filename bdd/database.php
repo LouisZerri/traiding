@@ -59,6 +59,33 @@
 		return $vendeur;
 	}
 
+	function rechercherProduit($produit)
+	{
+		$pdo = connexionBaseDeDonnee();
+
+		if($produit != '')
+		{
+			$req = $pdo->prepare('SELECT * FROM produits WHERE nom = ?');
+			
+			$req->execute([$produit]);
+
+			$produits = $req->fetchAll();
+
+			return $produits;
+		}
+		else
+		{
+			$query = $pdo->query('SELECT * FROM produits');
+
+			$query->execute();
+
+			$res = $query->fetchAll();
+
+			return $res;
+		}
+
+	}
+
 
 
 

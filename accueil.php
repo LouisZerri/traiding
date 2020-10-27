@@ -27,16 +27,18 @@ body
 					Shop Pepperbay
 				</a>
 			  	<ul class="navbar-nav ml-auto">
-					<form action="test.php" method="get" class="form-inline my-2 my-lg-0 mr-5">
+					<form action="search_products.php" method="GET" class="form-inline my-2 my-lg-0 mr-5">
 						<div class="form-group">
 							<div class="input-group-prepend">
 					    		<span class="input-group-text">Rechercher</span>
 					  		</div>
-				      		<input style="width: 400px;" class="form-control" type="search" aria-label="Search">
+				      		<input style="width: 400px;" class="form-control" type="search" aria-label="Search" name="search" placeholder="Rechercher un produit">
 				      		<div class="input-group-prepend">
-					    		<span class="input-group-text search">
-					    			<i class="fa fa-search fa-2x"></i>
-					    		</span>	
+				      			<a href="javascript:$('form').submit()" role="button" type="submit">
+				      				<span class="input-group-text search">
+						    			<i class="fa fa-search fa-2x"></i>
+						    		</span>	
+				      			</a>
 				      		</div>
 						</div>
 				    </form>

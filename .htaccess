@@ -8,6 +8,7 @@ RewriteRule ^rechercher$ rechercher.php
 RewriteRule ^promotion$ promotions.php
 RewriteRule ^vendre$ vendre.php
 
+
 ErrorDocument 404 /traiding/404.php
 
 

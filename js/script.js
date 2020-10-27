@@ -55,4 +55,29 @@ $(document).ready(function() {
 		})
 	 })
 
+
+	$('#nameFilter').click((e) => {
+		e.preventDefault();
+
+		var search = $("#search").val();
+
+		jQuery.ajax({
+	 		url : 'bdd/ajax_search.php',
+	 		method: 'POST',
+	 		data : {
+	 			search: search
+	 		},
+	 		success: function(data, text, jqxhr)
+	 		{
+	 			$('#search_product').html(data).fadeIn(500);
+	 		},
+	 		error: function(jqxhr)
+	 		{
+	 			alert(jqxhr.responseText);
+	 		}
+		})
+
+
+	})
+
 })
