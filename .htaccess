@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^home$ accueil.php
+RewriteRule ^creation_compte$ creation_compte.php
+RewriteRule ^connexion$ connexion.php
+RewriteRule ^deconnexion$ deconnexion.php
+RewriteRule ^rechercher$ rechercher.php
+RewriteRule ^promotion$ promotions.php
+RewriteRule ^vendre$ vendre.php
+
+ErrorDocument 404 /traiding/404.php
+
+
+
+

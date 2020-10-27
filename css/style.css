@@ -1,0 +1,227 @@
+.index
+{
+	vertical-align: middle;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+	margin-top: 200px;
+	width: 75%;
+
+}
+
+.dropdown-toggle
+{
+    cursor: pointer;
+}
+
+
+
+.input-group-text, .pointer
+{
+	cursor: pointer;
+}
+
+.search
+{
+	background: #f3a847;
+}
+
+.fondsecurity
+{
+	background: url(../assets/images/background_security.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	position: fixed; 
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	z-index: -1;
+}
+
+#fondecran 
+{
+	background: url(../assets/images/background.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	position: fixed; 
+ 	top: 27%; 
+ 	left: 0; 
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	z-index: -1;
+}
+
+.fondrecherche
+{
+	background: url(../assets/images/recherche.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	position: fixed; 
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	z-index: -1;
+}
+
+.fondvente
+{
+	background: url(../assets/images/background3.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	position: fixed; 
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	z-index: -1;
+}
+
+.choice
+{
+	margin-top: 200px;
+}
+
+.jumbotron
+{
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.jumbotron:hover .display-4
+{
+	color: orange;
+}
+
+a, a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+.click:hover
+{
+	text-decoration: underline;
+}
+
+
+
+.fondpromotion
+{
+	background: url(../assets/images/background2.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+	position: fixed; 
+ 	min-width: 100%;
+ 	min-height: 100%;
+ 	z-index: -1;
+}
+
+.fond404
+{
+  background: url(../assets/images/404.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  position: fixed; 
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.search_section
+{
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-right: 100px;
+}
+
+hr
+{
+	color: black;
+}
+
+.search-card
+{
+	vertical-align: middle;
+	position: absolute;
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+}
+
+table
+{
+	background-color: white;
+	position: absolute;
+	left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.error404
+{
+  position: absolute;
+  top: 35%;
+  bottom: 50%;
+  left: 5%;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+  .display-4
+  {
+  	font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1335px) {
+  .display-4
+  {
+  	font-size: 35px;
+  }
+}
+
+
+@media screen and (max-width: 1500px) {
+  .pub
+  {
+  	width: 250px;
+  	height: 100px;
+  	margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .pub
+  {
+  	width: 200px;
+  	height: 100px;
+  	margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .pub
+  {
+  	width: 150px;
+  	height: 100px;
+  	margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pub
+  {
+  	width: 100px;
+  	height: 50px;
+  	margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .pub
+  {
+  	width: 50px;
+  	height: 50px;
+  }
+}
