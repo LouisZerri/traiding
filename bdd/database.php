@@ -65,9 +65,9 @@
 
 		if($produit != '')
 		{
-			$req = $pdo->prepare('SELECT * FROM produits WHERE nom = ?');
-			
-			$req->execute([$produit]);
+			$req = $pdo->query("SELECT * FROM produits WHERE nom LIKE '$produit%' ORDER BY origine");
+
+			$req->execute();
 
 			$produits = $req->fetchAll();
 
@@ -75,7 +75,7 @@
 		}
 		else
 		{
-			$query = $pdo->query('SELECT * FROM produits');
+			$query = $pdo->query('SELECT * FROM produits ORDER BY origine');
 
 			$query->execute();
 

@@ -62,13 +62,23 @@
       						<td><?= $donnees->classification ?></td>
       						<td><?= $donnees->origine ?></td>
       						<td><?= $donnees->prix ?></td>
-      						<?php if($donnees->disponibilite == 'En stock'): ?>
-      							<td><span class="badge badge-success"><?= $donnees->disponibilite ?></span></td>
-      						<?php elseif($donnees->disponibilite == 'Approvisionnement'): ?>
-      							<td><span class="badge badge-info"><?= $donnees->disponibilite ?></span></td>
-      						<?php elseif($donnees->disponibilite == 'Rupture de stock'): ?>
-      							<td><span class="badge badge-danger"><?= $donnees->disponibilite ?></span></td>
-      						<?php endif;?>
+      						<?php if($donnees->promo == 1): ?>
+	      						<?php if($donnees->disponibilite == 'En stock'): ?>
+	      							<td><span class="badge badge-success"><?= $donnees->disponibilite ?></span>&nbsp;<span class="badge badge-warning">Promo !</span></td>
+	      						<?php elseif($donnees->disponibilite == 'Approvisionnement'): ?>
+	      							<td><span class="badge badge-info"><?= $donnees->disponibilite ?></span>&nbsp;<span class="badge badge-warning">Promo !</span></td>
+	      						<?php elseif($donnees->disponibilite == 'Rupture de stock'): ?>
+	      							<td><span class="badge badge-danger"><?= $donnees->disponibilite ?></span>&nbsp;<span class="badge badge-warning">Promo !</span></td>
+	      						<?php endif;?>
+	      					<?php else: ?>
+	      						<?php if($donnees->disponibilite == 'En stock'): ?>
+	      							<td><span class="badge badge-success"><?= $donnees->disponibilite ?></span></td>
+	      						<?php elseif($donnees->disponibilite == 'Approvisionnement'): ?>
+	      							<td><span class="badge badge-info"><?= $donnees->disponibilite ?></span></td>
+	      						<?php elseif($donnees->disponibilite == 'Rupture de stock'): ?>
+	      							<td><span class="badge badge-danger"><?= $donnees->disponibilite ?></span></td>
+	      						<?php endif;?>
+	      					<?php endif; ?>
       					</tr>
 					<?php endforeach ?>
 				</tbody>
