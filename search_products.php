@@ -41,7 +41,7 @@
 			</div>
 	    </article>
 	    <article>
-	    	<table id="search_product" class="table table-striped mt-5 w-75">
+	    	<table id="search_product" class="table table-striped mt-5 mb-5 w-75">
 				<thead>
 					<tr>
 		  				<th scope="col">Identifiant</th>

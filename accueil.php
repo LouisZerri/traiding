@@ -57,7 +57,7 @@ body
 			</nav>
 		</header>
 		<article>
-			<div class="row mt-3 ml-5">
+			<div class="row ml-5">
 				<div class="pointer col">
 					<a href="https://www.total.fr/" target="_blank">
 						<img class="pub" src="assets/images/total.jpg" alt="">

@@ -61,7 +61,7 @@
 					</button>
 				</div>
 			<?php endif; ?>
-	    	<div class="card mt-5 search-card mb-5">
+	    	<div class="card mt-3 search-card mb-5">
 	    		<h4 class="display-4 pl-2">Informations générales</h4><hr>
 	    		<div class="card-body">
 	    			<div class="container">

@@ -14,7 +14,7 @@
 		</header>
 		<article class="search_section">
 	    	<h1 class="text-white font-weight-bold display-4">PRODUITS EN PROMOTION</h1>
-	    	<table class="table table-striped mt-5 w-75">
+	    	<table class="table table-striped mt-5 w-75 mb-5">
   				<thead>
     				<tr>
 				    	<th scope="col">Identifiant</th>
